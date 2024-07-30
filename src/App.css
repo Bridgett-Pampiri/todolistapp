@@ -1,12 +1,15 @@
 .form-container {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  padding: 16px;
+  
 }
 
 .form-container label {
-  margin-bottom: 8px;
+  display: block;
+  margin-bottom: 4px; 
 }
 
 .form-container input {
@@ -47,4 +50,114 @@
 
 .fieldset-container button {
   align-self: flex-start;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+/* App.css */
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  cursor: pointer;
+  background-color: #f0f0f0;
+}
+
+th:hover {
+  background-color: #e0e0e0;
+}
+
+button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  color: red;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  color: darkred;
+}
+
+input[type="text"] {
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 100%;
+}
+
+fieldset {
+  margin-bottom: 10px;
+  border: none;
+  padding: 0;
+}
+
+legend {
+  font-weight: bold;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+button[type="button"] {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button[type="button"]:hover {
+  background-color: #da190b;
 }
