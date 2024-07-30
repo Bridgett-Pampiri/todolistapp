@@ -1,0 +1,50 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.form-container label {
+  margin-bottom: 8px;
+}
+
+.form-container input {
+  margin-bottom: 12px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form-container button {
+  align-self: flex-start;
+}
+
+.fieldset-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  border: 1px solid #ddd;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.fieldset-container legend {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.fieldset-container label {
+  margin-bottom: 8px;
+}
+
+.fieldset-container input,
+.fieldset-container select {
+  margin-bottom: 12px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.fieldset-container button {
+  align-self: flex-start;
+}
